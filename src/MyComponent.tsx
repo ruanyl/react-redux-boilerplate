@@ -1,4 +1,5 @@
-import * as React from 'react'
+import React from 'react'
+
 const styles = require('./MyComponent.css')
 
 export class MyComponent extends React.Component<any, any> {
