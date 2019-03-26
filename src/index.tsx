@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDom from 'react-dom'
 import { Provider } from 'react-redux'
 
-import configureStore from '../src/configureStore'
+import configureStore from './configureStore'
 
-import './style.css'
-import { Counter } from '../src/Counter/CounterComponent';
+import './style.scss'
+import { Counter } from './Counter/CounterComponent';
 
 const store = configureStore()
 
