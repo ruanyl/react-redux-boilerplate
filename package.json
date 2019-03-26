@@ -6,7 +6,8 @@
     "build": "NODE_ENV='production' ./node_modules/.bin/webpack --config webpack.config.js",
     "build-dev": "NODE_ENV='development' ./node_modules/.bin/webpack --config webpack.config.js",
     "test": "npm run test-only",
-    "test-only": "jest --coverage",
+    "test-only": "jest",
+    "test-coverage": "jest --coverage",
     "test:watch": "jest --watch"
   },
   "devDependencies": {
